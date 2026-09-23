@@ -1,0 +1,14 @@
+    @Builder allows us to create an object by setting its fields
+     step-by-step in a readable way,without needing a large
+        constructor or many setter calls.
+
+
+      @PrePersist and @PreUpdate are JPA lifecycle annotations
+         . @PrePersist
+      It runs before a new entity is inserted into the database.
+
+      2. @PreUpdate
+        It runs before an existing entity is updated in the database.
+
+     RECORD is a special type of class introduced in Java 16. It is mainly used when
+     you want to create an object whose purpose is simply to carry data.
