@@ -12,3 +12,6 @@
 
      RECORD is a special type of class introduced in Java 16. It is mainly used when
      you want to create an object whose purpose is simply to carry data.
+
+     @Pattern is a Bean Validation annotation in Java/Spring Boot. It is mainly used
+     when you want to check whether a String follows a particular pattern/format.
